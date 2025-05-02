@@ -11,12 +11,13 @@ const Chatsection = () => {
   return (
     <section className="bg-gradient-to-r from-bg to-toBg  min-h-screen flex justify-center">
       <div className="w-11/12 mx-auto">
-        <h1>Live Ai Coach</h1>
-        <p>Take a Suggestion Coaching </p>
-
-        <div className="flex justify-between">
+        <h1 className="text-2xl text-gray-300 pt-5">Live Ai Coach</h1>
+        <p className="text-white text-6xl">Take a Suggestion Coaching </p>
+        <div className="flex gap-3 justify-center  h-full items-center">
+            
           <div className="bg-likebg">
-            <div className="chat chat-start">
+
+            <div className="chat chat-start w-full h-full">
               <div className="chat-image avatar">
                 <div className="w-10 rounded-full">
                   <img
@@ -50,7 +51,7 @@ const Chatsection = () => {
             </div>
           </div>
 
-          <div className="bg-likebg h-auto w-auto px-3 flex flex-col py-3 gap-y-6 rounded-full">
+          <div className="bg-likebg  px-3 flex flex-col py-3 gap-y-6 rounded-full">
             {/* littte card section */}
             <TfiReload />
             <FaRegThumbsUp />
@@ -59,11 +60,11 @@ const Chatsection = () => {
             <IoVolumeMediumOutline />
           </div>
 
-          <div>
+          <div className="flex flex-col gap-y-3 ">
             <div className="bg-anotherbg flex flex-col gap-6 w-full px-3 py-2 rounded-md">
               <h1 className="text-3xl">Real-time Analysis</h1>
               <div className="bg-white">
-                <p className="flex items-center gap-1">
+                <p className="flex items-center gap-1 px-2 py-1 rounded-md">
                   <MdCloudDone className="text-green-500" /> Confidence Level
                 </p>
                 <div className="flex gap-1 justify-center items-center">
@@ -76,8 +77,8 @@ const Chatsection = () => {
                 </div>
               </div>
               <div className="">
-              <div className="bg-white">
-                <p className="flex items-center gap-1">
+              <div className="bg-white px-2 py-1 rounded-md">
+                <p className="flex items-center gap-1 ">
                   <BsGraphUpArrow className="text-green-500" /> Confidence Level
                 </p>
                 <p>85% improvement in objection handling</p>
@@ -85,15 +86,15 @@ const Chatsection = () => {
             </div>
             </div>
             
-            <div className="bg-anotherbg">
-                <h1 className="text-3xl">Quick Actions</h1>
-                <div>
-                    <div className="bg-white">
+            <div className="bg-anotherbg px-3 py-2 rounded-md">
+                <h1 className="text-3xl pb-2">Quick Actions</h1>
+                <div className="flex justify-between">
+                    <div className="bg-white px-2 py-1 rounded-md">
                     <GrDocumentStore />
                     <p>Generate Script</p>
                     </div>
                     
-                    <div className="bg-white">
+                    <div className="bg-white px-2 py-1 rounded-md">
                     <IoChatbubbleEllipses />
                     <p>Practice Pitch</p>
                     </div>
