@@ -11,7 +11,9 @@ export default {
       },
       colors:{
         bg: 'rgb(16, 53, 112)',
-        toBg: 'rgb(0, 79, 206)'
+        toBg: 'rgb(0, 79, 206)',
+        likebg: 'rgb(242, 243, 243)',
+        anotherbg: 'rgb(239, 239, 239)',
       }
     },
   },
