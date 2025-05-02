@@ -4,14 +4,17 @@ import { MdContentPaste } from "react-icons/md";
 import { IoVolumeMediumOutline } from "react-icons/io5";
 import { MdCloudDone } from "react-icons/md";
 import { BsGraphUpArrow } from "react-icons/bs";
+import { GrDocumentStore } from "react-icons/gr";
+import { IoChatbubbleEllipses } from "react-icons/io5";
+
 const Chatsection = () => {
   return (
-    <section className="bg-gradient-to-r from-bg to-toBg  min-h-screen ">
+    <section className="bg-gradient-to-r from-bg to-toBg  min-h-screen flex justify-center">
       <div className="w-11/12 mx-auto">
         <h1>Live Ai Coach</h1>
         <p>Take a Suggestion Coaching </p>
 
-        <div className="flex">
+        <div className="flex justify-between">
           <div className="bg-likebg">
             <div className="chat chat-start">
               <div className="chat-image avatar">
@@ -57,9 +60,9 @@ const Chatsection = () => {
           </div>
 
           <div>
-            <div className="bg-anotherbg flex flex-col gap-6">
-              <h1>Real-time Analysis</h1>
-              <div className="bg-likebg">
+            <div className="bg-anotherbg flex flex-col gap-6 w-full px-3 py-2 rounded-md">
+              <h1 className="text-3xl">Real-time Analysis</h1>
+              <div className="bg-white">
                 <p className="flex items-center gap-1">
                   <MdCloudDone className="text-green-500" /> Confidence Level
                 </p>
@@ -72,8 +75,8 @@ const Chatsection = () => {
                   <p>40%</p>
                 </div>
               </div>
-              <div className="bg-likebg">
-              <div className="bg-anotherbg">
+              <div className="">
+              <div className="bg-white">
                 <p className="flex items-center gap-1">
                   <BsGraphUpArrow className="text-green-500" /> Confidence Level
                 </p>
@@ -82,7 +85,21 @@ const Chatsection = () => {
             </div>
             </div>
             
-            <div></div>
+            <div className="bg-anotherbg">
+                <h1 className="text-3xl">Quick Actions</h1>
+                <div>
+                    <div className="bg-white">
+                    <GrDocumentStore />
+                    <p>Generate Script</p>
+                    </div>
+                    
+                    <div className="bg-white">
+                    <IoChatbubbleEllipses />
+                    <p>Practice Pitch</p>
+                    </div>
+                    
+                </div>
+            </div>
           </div>
         </div>
       </div>
