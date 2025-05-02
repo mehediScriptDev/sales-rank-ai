@@ -8,6 +8,10 @@ export default {
     extend: {
       fontFamily:{
         manrope: ["Manrope", "sans-serif"]
+      },
+      colors:{
+        bg: 'rgb(16, 53, 112)',
+        toBg: 'rgb(0, 79, 206)'
       }
     },
   },
