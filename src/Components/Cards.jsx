@@ -10,12 +10,21 @@ const Cards = () => {
             <img src={robot1} alt="Shoes" />
           </figure>
           <div className="card-body">
+            <div  className="flex justify-between">
+                <div className="flex gap-3 w-11/12">
+                    <p className="bg-white px-2 py-1 rounded text-sm">4 Weeks</p>
+                    <p className="bg-white px-2 py-1 rounded text-sm">Beginner</p>
+                </div>
+                <div>
+                    <p>By John Smith</p>
+                </div>
+            </div>
             <h2 className="card-title">Card Title</h2>
             <p>
               A card component has a figure, a body part, and inside body there
               are title and actions parts
             </p>
-              <button className="btn btn-primary">Buy Now</button>
+              <button className="btn bg-btnbg text-white">Get it now</button>
             
           </div>
         </div>
