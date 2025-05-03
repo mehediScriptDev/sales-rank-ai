@@ -13,41 +13,27 @@ const Chatsection = () => {
       <div className="w-11/12 mx-auto">
         <div className="max-h-2 pb-6">
           <h1 className="text-2xl text-gray-300 pt-5">Live Ai Coach</h1>
-          <p className="text-white text-3xl md:text-6xl hidden md:flex">Take a Suggestion Coaching </p>
+          <p className="text-white text-3xl md:text-6xl hidden md:flex">
+            Take a Suggestion Coaching{" "}
+          </p>
         </div>
         <div className="flex gap-3 justify-center flex-col md:flex-row  h-full items-center">
-          <div className="bg-likebg">
-            <div className="chat chat-start w-full h-full">
-              <div className="chat-image avatar">
+          <div className="bg-likebg rounded-md">
+            <div className="pb-10">
+              <h1 className="text-black bg-white px-3 font-bold py-4">AI Sales Coach</h1>
+              <div className="flex justify-between items-center px-4 gap-2 py-5">
+              <div className="avatar">
                 <div className="w-10 rounded-full">
-                  <img
-                    alt="Tailwind CSS chat bubble component"
-                    src="https://img.daisyui.com/images/profile/demo/kenobee@192.webp"
-                  />
+                  <img src="https://img.daisyui.com/images/profile/demo/yellingcat@192.webp" />
                 </div>
               </div>
-              <div className="chat-header">
-                Obi-Wan Kenobi
-                <time className="text-xs opacity-50">12:45</time>
+              <p className="bg-white max-w-2xl rounded-md px-5">Hello! I'm your AI sales coach. How can I help you improve your sales performance today?</p>
               </div>
-              <div className="chat-bubble">You were the Chosen One!</div>
-              <div className="chat-footer opacity-50">Delivered</div>
             </div>
-            <div className="chat chat-end">
-              <div className="chat-image avatar">
-                <div className="w-10 rounded-full">
-                  <img
-                    alt="Tailwind CSS chat bubble component"
-                    src="https://img.daisyui.com/images/profile/demo/anakeen@192.webp"
-                  />
-                </div>
-              </div>
-              <div className="chat-header">
-                Anakin
-                <time className="text-xs opacity-50">12:46</time>
-              </div>
-              <div className="chat-bubble">I hate you!</div>
-              <div className="chat-footer opacity-50">Seen at 12:46</div>
+
+            <div className="flex gap-3 px-3 pb-3">
+              <input className="w-full border-2 border-gray-300 h-10 px-2" placeholder="Ask anything you need" type="text" name="" id="" />
+              <button className="btn bg-btnbg text-white">Send</button>
             </div>
           </div>
 
