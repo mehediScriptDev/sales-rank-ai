@@ -3,45 +3,75 @@ import robot2 from "./images/robot2.png";
 
 const Cards = () => {
   return (
-    <section className=" min-h-screen mx-auto w-11/12">
-      <div className="grid md:grid-cols-2 mt-6 grid-cols-1 gap-3 justify-between items-center">
-        <div className="card bg-anotherbg h-full shadow-sm col-span-1">
-          <figure>
-            <img src={robot1} alt="Shoes" />
-          </figure>
-          <div className="card-body">
-            <div  className="flex justify-between">
-                <div className="flex gap-3 w-11/12">
-                    <p className="bg-white px-2 py-1 rounded text-sm">4 Weeks</p>
-                    <p className="bg-white px-2 py-1 rounded text-sm">Beginner</p>
-                </div>
-                <div>
-                    <p>By John Smith</p>
-                </div>
+    <section className="w-11/12 mx-auto min-h-screen">
+        <div className="flex justify-between mt-10 items-center">
+            <div className="max-w-2xl">
+                <h1 className="text-5xl">Our Courses</h1>
+                <p>Lorem ipsum dolor sit amet consectetur. Tempus tincidunt etiam eget elit id imperdiet et. Cras eu sit dignissim lorem nibh et. Ac cum eget habitasse in velit fringilla feugiat senectus in.</p>
             </div>
-            <h2 className="card-title">Card Title</h2>
-            <p>
-              A card component has a figure, a body part, and inside body there
-              are title and actions parts
-            </p>
-              <button className="btn bg-btnbg text-white">Get it now</button>
-            
+            <div>
+                <button className="btn bg-btnbg text-white">View all</button>
+            </div>
+        </div>
+      <div className="grid md:grid-cols-2 grid-cols-1 mt-8">
+        <div className="bg-anotherbg rounded-xl shadow-md p-4 max-w-md mx-auto col-span-1">
+          <img
+            src={robot1}
+            alt="Course Preview"
+            className="w-full rounded-lg mb-4"
+          />
+
+          <div className="flex justify-between items-center mb-2">
+            <div className="flex gap-2">
+              <p className="bg-white text-sm px-3 py-1 rounded">4 Weeks</p>
+              <p className="bg-white text-sm px-3 py-1 rounded">Beginner</p>
+            </div>
+            <p className="text-sm text-gray-700">By John Smith</p>
           </div>
+
+          <h2 className="text-lg font-semibold mb-2">
+            Web Design Fundamentals
+          </h2>
+
+          <p className="text-gray-600 text-sm mb-4 leading-relaxed">
+            Learn the fundamentals of web design, including HTML, CSS, and
+            responsive design principles. Develop the skills to create visually
+            appealing and user-friendly websites.
+          </p>
+
+          <button className="bg-blue-900 text-white py-2 w-full rounded font-medium hover:bg-blue-800 transition">
+            Get it Now
+          </button>
         </div>
 
-        <div className="card bg-anotherbg shadow-sm h-full col-span-1">
-          <figure>
-            <img className="py-2" src={robot2} alt="Shoes" />
-          </figure>
-          <div className="card-body">
-            <h2 className="card-title">Card Title</h2>
-            <p>
-              A card component has a figure, a body part, and inside body there
-              are title and actions parts
-            </p>
-              <button className="btn btn-primary">Buy Now</button>
-            
+        <div className="bg-anotherbg rounded-xl shadow-md p-4 max-w-md mx-auto col-span-1">
+          <img
+            src={robot2}
+            alt="Course Preview"
+            className="w-full rounded-lg mb-4"
+          />
+
+          <div className="flex justify-between items-center mb-2">
+            <div className="flex gap-2">
+              <p className="bg-white text-sm px-3 py-1 rounded">4 Weeks</p>
+              <p className="bg-white text-sm px-3 py-1 rounded">Beginner</p>
+            </div>
+            <p className="text-sm text-gray-700">By John Smith</p>
           </div>
+
+          <h2 className="text-lg font-semibold mb-2">
+            Web Design Fundamentals
+          </h2>
+
+          <p className="text-gray-600 text-sm mb-4 leading-relaxed">
+            Learn the fundamentals of web design, including HTML, CSS, and
+            responsive design principles. Develop the skills to create visually
+            appealing and user-friendly websites.
+          </p>
+
+          <button className="bg-blue-900 text-white py-2 w-full rounded font-medium hover:bg-blue-800 transition">
+            Get it Now
+          </button>
         </div>
       </div>
     </section>
