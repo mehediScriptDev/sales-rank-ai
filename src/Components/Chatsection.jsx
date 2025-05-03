@@ -9,31 +9,55 @@ import { IoChatbubbleEllipses } from "react-icons/io5";
 
 const Chatsection = () => {
   return (
-    <section className="bg-gradient-to-r from-bg to-toBg  min-h-screen  flex justify-center">
+    <section className="bg-gradient-to-r from-bg to-toBg  h-full flex justify-center">
       <div className="w-11/12 mx-auto">
         <div className="max-h-2 pb-6">
-          <h1 className="text-2xl text-gray-300 pt-5">Live Ai Coach</h1>
+          <h1 className="text-2xl text-gray-300">Live Ai Coach</h1>
           <p className="text-white text-3xl md:text-6xl hidden md:flex">
             Take a Suggestion Coaching{" "}
           </p>
         </div>
         <div className="flex gap-3 justify-center flex-col md:flex-row  h-full items-center">
-          <div className="bg-likebg rounded-md">
-            <div className="pb-10">
-              <h1 className="text-black bg-white px-3 font-bold py-4">AI Sales Coach</h1>
+          <div className="bg-likebg rounded-2xl">
+            <div className="">
+              <h1 className="text-black bg-white px-3 font-bold py-4">
+                AI Sales Coach
+              </h1>
               <div className="flex justify-between items-center px-4 gap-2 py-5">
-              <div className="avatar">
-                <div className="w-10 rounded-full">
-                  <img src="https://img.daisyui.com/images/profile/demo/yellingcat@192.webp" />
+                <div className="avatar">
+                  <div className="w-10 rounded-full">
+                    <img src="https://img.daisyui.com/images/profile/demo/yellingcat@192.webp" />
+                  </div>
                 </div>
-              </div>
-              <p className="bg-white max-w-2xl rounded-md px-5">Hello! I'm your AI sales coach. How can I help you improve your sales performance today?</p>
+                <p className="bg-white max-w-2xl rounded-md px-5">
+                  Hello! I'm your AI sales coach. How can I help you improve
+                  your sales performance today?
+                </p>
               </div>
             </div>
 
-            <div className="flex gap-3 px-3 pb-3">
-              <input className="w-full border-2 border-gray-300 h-10 px-2" placeholder="Ask anything you need" type="text" name="" id="" />
-              <button className="btn bg-btnbg text-white">Send</button>
+            <div className="flex gap-3 px-3 pb-3 flex-col bg-white py-2">
+              <div className="flex gap-3 px-2">
+                <p className="bg-anotherbg hidden md:flex px-2 rounded-lg text-btnbg">
+                  How do I handle objections?
+                </p>
+                <p className="bg-anotherbg  px-2 rounded-lg text-btnbg">
+                  Closing techniques
+                </p>
+                <p className="bg-anotherbg px-2 rounded-lg text-btnbg">
+                  Negotiation tips
+                </p>
+              </div>
+              <div className="flex gap-3 ">
+                <input
+                  className="w-full border-2 border-gray-300 h-10 px-2"
+                  placeholder="Ask anything you need"
+                  type="text"
+                  name=""
+                  id=""
+                />
+                <button className="btn bg-btnbg text-white">Send</button>
+              </div>
             </div>
           </div>
 
