@@ -9,11 +9,11 @@ import { IoChatbubbleEllipses } from "react-icons/io5";
 
 const Chatsection = () => {
   return (
-    <section className="bg-gradient-to-r from-bg to-toBg  h-full flex justify-center mt-10">
+    <section className="bg-gradient-to-r from-bg py-5 to-toBg  h-full flex justify-center">
       <div className="w-11/12 mx-auto">
-        <div className="max-h-2 pb-2 md:pb-6">
+        <div className="max-h-2 pb-6">
           <h1 className="text-2xl text-gray-300">Live Ai Coach</h1>
-          <p className="text-white text-3xl md:text-6xl hidden md:flex">
+          <p className="text-white text-3xl md:text-4xl hidden md:flex">
             Take a Suggestion Coaching{" "}
           </p>
         </div>
