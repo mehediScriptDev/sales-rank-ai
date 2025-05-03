@@ -4,7 +4,7 @@ import robot2 from "./images/robot2.png";
 const Cards = () => {
   return (
     <section className="w-11/12 mx-auto min-h-screen">
-        <div className="flex justify-between mt-10 items-center">
+        <div className="flex justify-between mt-10  items-center">
             <div className="max-w-2xl">
                 <h1 className="text-5xl">Our Courses</h1>
                 <p>Lorem ipsum dolor sit amet consectetur. Tempus tincidunt etiam eget elit id imperdiet et. Cras eu sit dignissim lorem nibh et. Ac cum eget habitasse in velit fringilla feugiat senectus in.</p>
@@ -13,7 +13,7 @@ const Cards = () => {
                 <button className="btn bg-btnbg text-white">View all</button>
             </div>
         </div>
-      <div className="grid md:grid-cols-2 grid-cols-1 mt-8">
+      <div className="grid md:grid-cols-2 grid-cols-1 gap-y-5 mt-8">
         <div className="bg-anotherbg rounded-xl shadow-md p-4 max-w-md mx-auto col-span-1">
           <img
             src={robot1}
