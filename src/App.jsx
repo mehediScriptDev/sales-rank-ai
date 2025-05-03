@@ -3,6 +3,7 @@ import './App.css'
 import Header from './Components/Header'
 import Hero from './Components/Hero'
 import Chatsection from './Components/Chatsection'
+import Cards from './Components/Cards'
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
         <div>
           <Chatsection></Chatsection>
         </div>
+        <Cards></Cards>
       </section>
       
     </>
