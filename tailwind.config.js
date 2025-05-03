@@ -14,7 +14,7 @@ export default {
         toBg: 'rgb(0, 79, 206)',
         likebg: 'rgb(242, 243, 243)',
         anotherbg: 'rgb(239, 239, 239)',
-        anotherbg: 'rgb(0, 40, 104)',
+        btnbg: 'rgb(0, 40, 104)',
       }
     },
   },

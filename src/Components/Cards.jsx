@@ -1,11 +1,10 @@
-import React from "react";
 import robot1 from "./images/robot.png";
 import robot2 from "./images/robot2.png";
 
 const Cards = () => {
   return (
     <section className=" min-h-screen mx-auto w-11/12">
-      <div className="grid md:grid-cols-2  grid-cols-1 gap-3 justify-between items-center">
+      <div className="grid md:grid-cols-2 mt-6 grid-cols-1 gap-3 justify-between items-center">
         <div className="card bg-anotherbg h-full shadow-sm col-span-1">
           <figure>
             <img src={robot1} alt="Shoes" />
