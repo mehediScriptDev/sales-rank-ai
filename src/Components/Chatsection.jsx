@@ -9,14 +9,14 @@ import { IoChatbubbleEllipses } from "react-icons/io5";
 
 const Chatsection = () => {
   return (
-    <section className="bg-gradient-to-r from-bg to-toBg  min-h-screen flex justify-center">
+    <section className="bg-gradient-to-r from-bg to-toBg  min-h-screen  flex justify-center">
       <div className="w-11/12 mx-auto">
-        <h1 className="text-2xl text-gray-300 pt-5">Live Ai Coach</h1>
-        <p className="text-white text-6xl">Take a Suggestion Coaching </p>
-        <div className="flex gap-3 justify-center  h-full items-center">
-            
+        <div className="max-h-2 pb-6">
+          <h1 className="text-2xl text-gray-300 pt-5">Live Ai Coach</h1>
+          <p className="text-white text-3xl md:text-6xl hidden md:flex">Take a Suggestion Coaching </p>
+        </div>
+        <div className="flex gap-3 justify-center flex-col md:flex-row  h-full items-center">
           <div className="bg-likebg">
-
             <div className="chat chat-start w-full h-full">
               <div className="chat-image avatar">
                 <div className="w-10 rounded-full">
@@ -77,29 +77,29 @@ const Chatsection = () => {
                 </div>
               </div>
               <div className="">
-              <div className="bg-white px-2 py-1 rounded-md">
-                <p className="flex items-center gap-1 ">
-                  <BsGraphUpArrow className="text-green-500" /> Confidence Level
-                </p>
-                <p>85% improvement in objection handling</p>
+                <div className="bg-white px-2 py-1 rounded-md">
+                  <p className="flex items-center gap-1 ">
+                    <BsGraphUpArrow className="text-green-500" /> Confidence
+                    Level
+                  </p>
+                  <p>85% improvement in objection handling</p>
+                </div>
               </div>
             </div>
-            </div>
-            
+
             <div className="bg-anotherbg px-3 py-2 rounded-md">
-                <h1 className="text-3xl pb-2">Quick Actions</h1>
-                <div className="flex justify-between">
-                    <div className="bg-white px-2 py-1 rounded-md">
-                    <GrDocumentStore />
-                    <p>Generate Script</p>
-                    </div>
-                    
-                    <div className="bg-white px-2 py-1 rounded-md">
-                    <IoChatbubbleEllipses />
-                    <p>Practice Pitch</p>
-                    </div>
-                    
+              <h1 className="text-3xl pb-2">Quick Actions</h1>
+              <div className="flex justify-between">
+                <div className="bg-white px-2 py-1 rounded-md">
+                  <GrDocumentStore />
+                  <p>Generate Script</p>
                 </div>
+
+                <div className="bg-white px-2 py-1 rounded-md">
+                  <IoChatbubbleEllipses />
+                  <p>Practice Pitch</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
