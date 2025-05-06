@@ -13,6 +13,7 @@ export default {
         likebg: 'rgb(242, 243, 243)',
         anotherbg: 'rgb(239, 239, 239)',
         btnbg: 'rgb(0, 40, 104)',
+        
       },
       fontFamily:{
         manrope: "Manrope",
