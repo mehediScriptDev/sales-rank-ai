@@ -47,18 +47,18 @@ const Header = () => {
               tabIndex={0}
               className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
             >
-                {links}
+              {links}
             </ul>
           </div>
           <a className="btn btn-ghost text-xl">SalesRank.Ai</a>
         </div>
-        <div className=" hidden lg:flex pl-6">
+        <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
-            {links}
+          {links}
           </ul>
         </div>
         <div className="navbar-end">
-          <a className="btn btn-outline rounded-full px-6 py-0">Button</a>
+          <a className="btn">Button</a>
         </div>
       </div>
     </section>
