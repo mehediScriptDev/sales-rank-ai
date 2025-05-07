@@ -3,7 +3,7 @@ import robot2 from "./images/robot2.png";
 
 const Cards = () => {
   return (
-    <section className="w-11/12 mx-auto min-h-screen">
+    <section className="w-11/12 mx-auto my-10">
         <div className="flex justify-between mt-10 gap-3 items-center">
             <div className="w-2/3">
                 <h1 className="text-4xl  md:text-5xl ">Our Courses</h1>

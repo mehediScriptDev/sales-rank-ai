@@ -6,7 +6,7 @@ import { VscCircleLargeFilled } from "react-icons/vsc";
 
 const Hero = () => {
   return (
-    <section className="min-h-screen relative mt-10 ">
+    <section className="pb-10 relative mt-10 ">
       <div className="absolute bg-gradient-to-r from-gradient to-togradient rounded-full w-80 h-80 opacity-20 blur-2xl top-0 left-0">
 
 </div>
