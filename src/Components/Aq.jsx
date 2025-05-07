@@ -2,7 +2,7 @@ import { GoArrowLeft, GoArrowRight } from "react-icons/go";
 
 const Aq = () => {
   return (
-    <section className="w-10/12 mx-auto mt-16 relative">
+    <section className="w-10/12 mx-auto mt-16 relative mb-10">
       <div className="">
         <p className="text-left pb-3">Frequently Asked questions</p>
         <h1 className="font-manrope max-w-2xl mx-auto text-3xl md:text-4xl text-center">
@@ -49,7 +49,7 @@ const Aq = () => {
       <div className="w-11/12 mx-auto mt-10">
         <h1 className="font-manrope text-sm text-center md:text-xl font-semibold">“ They thoroughly analyze our industry and target audience, allowing them to develop customized campaigns that effectively reach and engage our customers. Their creative ideas and cutting-edge techniques have helped us stay ahead of the competition.”</h1>
 
-        <div className="grid md:grid-cols-2 grid-cols-1 justify-between items-center gap-2 mt-8">
+        <div className="flex md:flex-row flex-col justify-between items-center gap-2 mt-8">
           <div className="flex items-center gap-2 ">
             <div className="h-10 w-10 bg-slate-500 rounded-full"></div>
             <div className="">
