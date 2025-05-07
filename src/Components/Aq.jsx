@@ -1,4 +1,4 @@
-import React from "react";
+import { GoArrowLeft, GoArrowRight } from "react-icons/go";
 
 const Aq = () => {
   return (
@@ -44,6 +44,25 @@ const Aq = () => {
       </div>
       <div className="h-80 w-80 rounded-full bg-gradient-to-r from-gradient absolute top-8 left-8 right-8 to-togradient blur-2xl opacity-20">
 
+      </div>
+      {/* reviews section */}
+      <div className="w-11/12 mx-auto mt-10">
+        <h1 className="font-manrope text-sm text-center md:text-xl font-semibold">“ They thoroughly analyze our industry and target audience, allowing them to develop customized campaigns that effectively reach and engage our customers. Their creative ideas and cutting-edge techniques have helped us stay ahead of the competition.”</h1>
+
+        <div className="grid md:grid-cols-2 grid-cols-1 justify-between items-center gap-2 mt-8">
+          <div className="flex items-center gap-2 ">
+            <div className="h-10 w-10 bg-slate-500 rounded-full"></div>
+            <div className="">
+              <h1>Michael Kaizer</h1>
+              <p className="text-sm text-slate-500">CEO of Basecamp Corp</p>
+            </div>
+          </div>
+          <div className="flex gap-3 items-center">
+            <button className="btn btn-outline rounded-full px-5"><GoArrowLeft /></button>
+            <p><span className="font-semibold">01</span>/05</p>
+            <button className="btn btn-outline rounded-full px-5 bg-btnbg text-white"><GoArrowRight /></button>
+          </div>
+        </div>
       </div>
     </section>
   );
