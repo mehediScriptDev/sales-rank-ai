@@ -13,7 +13,8 @@ export default {
         likebg: 'rgb(242, 243, 243)',
         anotherbg: 'rgb(239, 239, 239)',
         btnbg: 'rgb(0, 40, 104)',
-        
+        gradient: 'rgb(255, 111, 185)',
+        togradient: 'rgb(103, 151, 255)'
       },
       fontFamily:{
         manrope: "Manrope",

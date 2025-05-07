@@ -6,10 +6,13 @@ import { VscCircleLargeFilled } from "react-icons/vsc";
 
 const Hero = () => {
   return (
-    <section className="min-h-screen relative mt-10 w-11/12 mx-auto">
-      <div className="grid grid-cols-12 items-center justify-center">
+    <section className="min-h-screen relative mt-10 ">
+      <div className="absolute bg-gradient-to-r from-gradient to-togradient rounded-full w-80 h-80 opacity-20 blur-2xl top-0 left-0">
+
+</div>
+      <div className="grid grid-cols-1 gap-y-8 md:grid-cols-12 items-center w-10/12 md:w-11/12 mx-auto justify-center">
         <div className="col-span-7">
-          <h1 className="text-7xl pb-3 font-manrope">
+          <h1 className="md:text-7xl text-6xl pb-3 font-manrope">
             Your AI- <br /> Powered <br /> Sales Coach
           </h1>
           <div className="flex gap-5 items-center max-w-2xl">
@@ -21,7 +24,7 @@ const Hero = () => {
             </p>
           </div>
           <div className="mt-6">
-            <div className="flex gap-5">
+            <div className="flex flex-col md:flex-row gap-y-2 md:gap-5">
             <div className="flex gap-3 items-center">
               <span className="bg-white shadow-md px-3 py-2 rounded-md">
                 <RiLayout4Line className="text-5xl text-btnbg" />
@@ -46,9 +49,21 @@ const Hero = () => {
             </div>
             </div>
           </div>
+          
         </div>
         <div className="col-span-5 h-96">
           <img src={banner} alt="" />
+
+          {/* absolute card */}
+          <div className="absolute top-[44rem] right-20 md:top-56 md:right-28 lg:right-72 bg-white px-4 md:px-6 py-6 rounded-md w-[17rem] md:w-[19rem] shadow-md">
+            <div className="flex justify-between">
+              <p className="text-3xl font-semibold text-btnbg">721+</p>
+              <p className="text-3xl font-semibold text-btnbg">1000+</p>
+            </div>
+            <h1 className="font-manrope font-semibold text-xl pb-6 pt-4">Growth is our priority.</h1>
+            <p className="text-sm max-w-md text-gray-600">As a full-service business agency, we specialize in helping companies of all sizes optimize their operations</p>
+
+          </div>
         </div>
       </div>
     </section>

@@ -24,7 +24,7 @@ const Header = () => {
   return (
     <section>
       <div className="navbar w-11/12 mx-auto">
-        <div className="">
+        <div className="flex items-center">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
               <svg
@@ -58,7 +58,7 @@ const Header = () => {
           </ul>
         </div>
         <div className="navbar-end">
-          <a className="btn btn-outline rounded-full px-6">Button</a>
+          <a className="btn btn-outline rounded-full btn-xs md:btn-md md:px-6">Get Started</a>
         </div>
       </div>
     </section>
