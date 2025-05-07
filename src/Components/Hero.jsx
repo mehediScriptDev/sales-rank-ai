@@ -55,7 +55,7 @@ const Hero = () => {
           <img src={banner} alt="" />
 
           {/* absolute card */}
-          <div className="absolute top-[44rem] right-20 md:top-56 md:right-28 lg:right-72 bg-white px-4 md:px-6 py-6 rounded-md w-[17rem] md:w-[19rem] shadow-md">
+          <div className="absolute top-[44rem] right-20 md:top-48 md:right-20 lg:right-[15rem] xl:right-[19rem] bg-white px-4 md:px-6 py-6 rounded-md w-[17rem] xs:w[10rem] md:w-[19rem] shadow-md">
             <div className="flex justify-between">
               <p className="text-3xl font-semibold text-btnbg">721+</p>
               <p className="text-3xl font-semibold text-btnbg">1000+</p>

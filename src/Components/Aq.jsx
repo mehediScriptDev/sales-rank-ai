@@ -2,7 +2,7 @@ import React from "react";
 
 const Aq = () => {
   return (
-    <section className="w-10/12 mx-auto mt-16">
+    <section className="w-10/12 mx-auto mt-16 relative">
       <div className="">
         <p className="text-left pb-3">Frequently Asked questions</p>
         <h1 className="font-manrope max-w-2xl mx-auto text-3xl md:text-4xl text-center">
@@ -41,6 +41,9 @@ const Aq = () => {
             changes.
           </div>
         </div>
+      </div>
+      <div className="h-80 w-80 rounded-full bg-gradient-to-r from-gradient absolute top-8 left-8 right-8 to-togradient blur-2xl opacity-20">
+
       </div>
     </section>
   );
