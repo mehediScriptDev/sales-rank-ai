@@ -4,6 +4,7 @@ import Header from "./Components/Header";
 import Hero from "./Components/Hero";
 import Chatsection from "./Components/Chatsection";
 import Cards from "./Components/Cards";
+import Aq from "./Components/Aq";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Hero></Hero>
         <Chatsection></Chatsection>
         <Cards></Cards>
+        <Aq></Aq>
         </div>
       </section>
     </>
